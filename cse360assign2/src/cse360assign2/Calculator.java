@@ -18,35 +18,35 @@ public class Calculator {
 	 * @return
 	 */
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	/**
 	 * this method will be called upon when the program finds a + symbol in the input.
 	 */
 	public void add (int value) {
-		
+		total = total + value;
 	}
 	
 	/**
 	 * this method will be called upon when the program finds a - symbol in the input.
 	 */
 	public void subtract (int value) {
-		
+		total = total - value;
 	}
 	
 	/**
 	 * this method will be called upon when the program finds a * symbol in the input.
 	 */
 	public void multiply (int value) {
-		
+		total = total * value;
 	}
 	
 	/**
 	 * this method will be called upon when the program finds a / symbol in the input.
 	 */
 	public void divide (int value) {
-		
+		total = total/value;
 	}
 	
 	/**
